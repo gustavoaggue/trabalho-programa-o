@@ -1,79 +1,67 @@
-/* Reset básico */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palmeiras</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabeçalho e Menu -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#titulos">Títulos</a></li>
+        <li><a href="#idolos">Ídolos</a></li>
+        <li><a href="#localizacao">Onde se localiza</a></li>
+        <li><a href="#historia">Parte da história</a></li>
+        <li><a href="#melhores">Melhores jogadores</a></li>
+      </ul>
+    </nav>
+  </header>
 
-/* Corpo da página */
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-  line-height: 1.6;
-}
+  <!-- Título principal -->
+  <h1>Palmeiras</h1>
 
-/* Cabeçalho e menu */
-header {
-  background-color: #006437; /* verde Palmeiras */
-  padding: 15px 0;
-}
+  <!-- Conteúdo -->
+  <div class="container">
+    <section id="historia">
+      <h2>Parte da história</h2>
+      <p>
+        O Palmeiras, fundado em 1914 como <strong>Palestra Italia</strong>, mudou de nome em 1942 durante a Segunda Guerra Mundial, estreando com título na histórica “Arrancada Heroica”. 
+        Conhecido pelas lendárias <strong>Academias de Futebol</strong> de Ademir da Guia, o clube se consolidou como o “Maior Campeão do Brasil” em títulos nacionais. 
+        Com uma história rica e conquistas marcantes na <strong>Copa Libertadores</strong>, o Alviverde segue como uma das principais potências do futebol sul-americano, empurrado por sua torcida no <strong>Allianz Parque</strong>.
+      </p>
+    </section>
 
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
+    <section id="titulos">
+      <h2>Títulos</h2>
+      <p>Lista dos principais títulos nacionais e internacionais do clube.</p>
+    </section>
 
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s ease;
-}
+    <section id="idolos">
+      <h2>Ídolos</h2>
+      <p>Grandes nomes que marcaram a história do Palmeiras.</p>
+    </section>
 
-nav ul li a:hover {
-  color: #ffd700; /* dourado para destaque */
-}
+    <section id="localizacao">
+      <h2>Onde se localiza</h2>
+      <p>O clube manda seus jogos no Allianz Parque, em São Paulo.</p>
+    </section>
 
-/* Título principal */
-h1 {
-  text-align: center;
-  font-size: 3rem;
-  color: #006437;
-  margin: 30px 0;
-}
+    <section id="melhores">
+      <h2>Melhores jogadores</h2>
+      <p>Jogadores que se destacaram ao longo da história do clube.</p>
+    </section>
+  </div>
 
-/* Conteúdo */
-.container {
-  max-width: 900px;
-  margin: auto;
-  background: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
-}
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2026 Página informativa sobre o Palmeiras</p>
+  </footer>
+</body>
+</html>
 
-.container p {
-  font-size: 1.1rem;
-  text-align: justify;
-  margin-bottom: 20px;
-}
-
-/* Destaques */
-strong {
-  color: #006437;
-}
-
-/* Rodapé */
-footer {
-  text-align: center;
-  padding: 15px;
-  background-color: #006437;
-  color: #fff;
-  margin-top: 30px;
-}
 
 
     <footer>
