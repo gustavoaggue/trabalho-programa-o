@@ -1,24 +1,80 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <nav class="nabar">
-            <p><a href="">Titulos</a></p>
-            <p><a href="">ídolos</a></p>
-            <p><a href="">onde se localiza</a></p>
-            <p><a href="">Parte da história</a></p>
-            <p><a href="">Melhores jogadores</a></p>
-    </nav>
-    <div class="conteudo">
-        <div class="titulo">
-        <h1>Palmeiras</h1>
-        </div>
-        <p>O Palmeiras, fundado em 1914 como Palestra Italia, mudou de nome em 1942 durante a Segunda Guerra Mundial, estreando com título na histórica "Arrancada Heroica". Conhecido pelas lendárias Academias de Futebol de Ademir da Guia, o clube se consolidou como o "Maior Campeão do Brasil" em títulos nacionais. Com uma história rica e conquistas marcantes na Copa Libertadores, o Alviverde segue como uma das principais potências do futebol sul-americano, empurrado por sua torcida no Allianz Parque.</p>
-    </div>
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Cabeçalho e menu */
+header {
+  background-color: #006437; /* verde Palmeiras */
+  padding: 15px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffd700; /* dourado para destaque */
+}
+
+/* Título principal */
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #006437;
+  margin: 30px 0;
+}
+
+/* Conteúdo */
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+.container p {
+  font-size: 1.1rem;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+/* Destaques */
+strong {
+  color: #006437;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #006437;
+  color: #fff;
+  margin-top: 30px;
+}
+
 
     <footer>
         <p>fontes gemini. chat gpt. cloud. deepseek</p>
